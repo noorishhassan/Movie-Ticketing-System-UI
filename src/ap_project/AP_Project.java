@@ -6,6 +6,8 @@ public class AP_Project {
         
         System.out.println("Hello world");
         
+        HomePage homePage = new HomePage();
+        homePage.setVisible(true);
     }
     
 }
