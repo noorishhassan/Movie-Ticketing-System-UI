@@ -6,8 +6,15 @@ public class AP_Project {
         
         System.out.println("Hello world");
         
-        HomePage homePage = new HomePage();
-        homePage.setVisible(true);
+        HomePage hp = new HomePage();
+        hp.setVisible(true);
+        
+        ComingSoon cs = new ComingSoon();
+        cs.setVisible(true);
+        
+        EditProfile ep = new EditProfile();
+        ep.setVisible(true);
+        
     }
     
 }
